@@ -1,0 +1,311 @@
+ERROR - 2021-06-22 12:30:02 --> Unknown column 'hora' in 'field list'
+ERROR - 2021-06-22 12:30:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '36 )' at line 1
+ERROR - 2021-06-22 12:30:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '37 )' at line 1
+ERROR - 2021-06-22 12:30:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '38 )' at line 1
+ERROR - 2021-06-22 12:30:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '39 )' at line 1
+CRITICAL - 2021-06-22 12:47:34 --> Undefined index: IDPLATILLO
+#0 C:\xampp\htdocs\rbduardo\app\Views\cliente\carrito.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\rbduardo\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rbduardo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rbduardo\system\Common.php(1250): CodeIgniter\View\View->render('cliente/carrito', Array, true)
+#4 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Carrito.php(48): view('cliente/carrito', Array)
+#5 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Carrito->index()
+#6 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Carrito))
+#7 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 12:48:06 --> Undefined index: IDPLATILLO
+#0 C:\xampp\htdocs\rbduardo\app\Views\cliente\carrito.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\rbduardo\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rbduardo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rbduardo\system\Common.php(1250): CodeIgniter\View\View->render('cliente/carrito', Array, true)
+#4 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Carrito.php(48): view('cliente/carrito', Array)
+#5 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Carrito->index()
+#6 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Carrito))
+#7 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 12:48:21 --> Undefined index: COMENTARIO
+#0 C:\xampp\htdocs\rbduardo\app\Views\cliente\carrito.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\rbduardo\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rbduardo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rbduardo\system\Common.php(1250): CodeIgniter\View\View->render('cliente/carrito', Array, true)
+#4 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Carrito.php(48): view('cliente/carrito', Array)
+#5 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Carrito->index()
+#6 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Carrito))
+#7 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 12:51:59 --> Undefined index: IDPEDIDO
+#0 C:\xampp\htdocs\rbduardo\app\Views\cliente\carrito.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\rbduardo\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rbduardo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rbduardo\system\Common.php(1250): CodeIgniter\View\View->render('cliente/carrito', Array, true)
+#4 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Carrito.php(48): view('cliente/carrito', Array)
+#5 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Carrito->index()
+#6 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Carrito))
+#7 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 13:01:20 --> Array to string conversion
+#0 C:\xampp\htdocs\rbduardo\app\Views\cliente\carrito.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\rbduardo\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rbduardo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rbduardo\system\Common.php(1250): CodeIgniter\View\View->render('cliente/carrito', Array, true)
+#4 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Carrito.php(48): view('cliente/carrito', Array)
+#5 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Carrito->index()
+#6 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Carrito))
+#7 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 13:06:50 --> Array to string conversion
+#0 C:\xampp\htdocs\rbduardo\app\Views\cliente\carrito.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\rbduardo\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rbduardo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rbduardo\system\Common.php(1250): CodeIgniter\View\View->render('cliente/carrito', Array, true)
+#4 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Carrito.php(48): view('cliente/carrito', Array)
+#5 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Carrito->index()
+#6 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Carrito))
+#7 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 13:11:53 --> Undefined variable: db
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Carrito.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Carrito.php(46): App\Controllers\Cliente\Carrito->getPedido()
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Carrito->index()
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Carrito))
+#4 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 13:12:45 --> Undefined variable: id_mesa
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Carrito.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Carrito.php(46): App\Controllers\Cliente\Carrito->getPedido()
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Carrito->index()
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Carrito))
+#4 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 13:14:03 --> Undefined variable: db
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Carrito.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 90, Array)
+#1 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Carrito.php(36): App\Controllers\Cliente\Carrito->add_db()
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Carrito->index()
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Carrito))
+#4 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-22 13:33:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BY mesa.idMesa' at line 3
+CRITICAL - 2021-06-22 13:33:14 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Mesero\Pedidos->index()
+#1 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Pedidos))
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-22 14:00:28 --> Unknown column 'hora' in 'field list'
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '40 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '41 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '42 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '43 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '44 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '45 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '46 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '47 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '48 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '49 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '50 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '51 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '52 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '55 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '56 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '57 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '58 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '59 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '60 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '61 )' at line 1
+ERROR - 2021-06-22 14:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '62 )' at line 1
+CRITICAL - 2021-06-22 14:35:08 --> Undefined variable: row
+#0 C:\xampp\htdocs\rbduardo\app\Views\cocina\home.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\rbduardo\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rbduardo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rbduardo\system\Common.php(1250): CodeIgniter\View\View->render('cocina/home', Array, true)
+#4 C:\xampp\htdocs\rbduardo\app\Controllers\Cocina\Home.php(12): view('cocina/home')
+#5 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cocina\Home->index()
+#6 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cocina\Home))
+#7 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-22 22:22:33 --> Unknown column 'hora' in 'field list'
+ERROR - 2021-06-22 22:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '53 )' at line 1
+ERROR - 2021-06-22 22:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '54 )' at line 1
+ERROR - 2021-06-22 22:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '126 )' at line 1
+ERROR - 2021-06-22 22:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '127 )' at line 1
+ERROR - 2021-06-22 22:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '128 )' at line 1
+ERROR - 2021-06-22 22:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '129 )' at line 1
+ERROR - 2021-06-22 22:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '130 )' at line 1
+ERROR - 2021-06-22 22:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '131 )' at line 1
+ERROR - 2021-06-22 22:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '132 )' at line 1
+ERROR - 2021-06-22 22:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '133 )' at line 1
+ERROR - 2021-06-22 22:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '134 )' at line 1
+ERROR - 2021-06-22 22:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '135 )' at line 1
+ERROR - 2021-06-22 22:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '136 )' at line 1
+ERROR - 2021-06-22 22:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '137 )' at line 1
+ERROR - 2021-06-22 22:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '138 )' at line 1
+ERROR - 2021-06-22 22:22:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '139 )' at line 1
+CRITICAL - 2021-06-22 23:09:20 --> unlink(C:\xampp\htdocs\rbduardo\writable\debugbar/debugbar_1624420419.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\rbduardo\system\Debug\Toolbar\Collectors\History.php(78): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rbduardo\system\Debug\Toolbar.php(480): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1624421356, 20)
+#3 C:\xampp\htdocs\rbduardo\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\rbduardo\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\rbduardo\system\Events\Events.php(166): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(319): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 23:13:58 --> Illegal string offset 'NOMBRE'
+#0 C:\xampp\htdocs\rbduardo\app\Views\mesero\platillos\platillos.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 90, Array)
+#1 C:\xampp\htdocs\rbduardo\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rbduardo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rbduardo\system\Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 C:\xampp\htdocs\rbduardo\app\Controllers\Mesero\Platillos.php(60): view('mesero/platillo...', Array)
+#5 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 23:18:52 --> Illegal string offset 'NOMBRE'
+#0 C:\xampp\htdocs\rbduardo\app\Views\mesero\platillos\platillos.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 90, Array)
+#1 C:\xampp\htdocs\rbduardo\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rbduardo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rbduardo\system\Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 C:\xampp\htdocs\rbduardo\app\Controllers\Mesero\Platillos.php(61): view('mesero/platillo...', Array)
+#5 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 23:43:11 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Mesero\Platillos.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\rbduardo\app\Controllers\Mesero\Platillos.php(88): App\Controllers\Mesero\Platillos->get_total()
+#2 C:\xampp\htdocs\rbduardo\app\Controllers\Mesero\Platillos.php(40): App\Controllers\Mesero\Platillos->add_db()
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#4 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#5 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-22 23:44:03 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Mesero\Platillos.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\rbduardo\app\Controllers\Mesero\Platillos.php(88): App\Controllers\Mesero\Platillos->get_total()
+#2 C:\xampp\htdocs\rbduardo\app\Controllers\Mesero\Platillos.php(40): App\Controllers\Mesero\Platillos->add_db()
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#4 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#5 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-22 23:45:31 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Mesero\Platillos.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\rbduardo\app\Controllers\Mesero\Platillos.php(88): App\Controllers\Mesero\Platillos->get_total()
+#2 C:\xampp\htdocs\rbduardo\app\Controllers\Mesero\Platillos.php(40): App\Controllers\Mesero\Platillos->add_db()
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#4 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#5 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-22 23:45:52 --> Undefined index: PRODUCTOS
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\BaseController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Menu.php(63): App\Controllers\BaseController->total_products()
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#4 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 23:46:12 --> Undefined index: MESA
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 23:46:21 --> Undefined index: MESA
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 23:47:11 --> Undefined index: MESA
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 23:47:23 --> Undefined index: MESA
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 23:53:18 --> Undefined index: MESA
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 23:53:24 --> Undefined index: MESA
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 23:53:42 --> Undefined index: MESA
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 23:54:04 --> Undefined index: MESA
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 23:54:15 --> Undefined index: MESA
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 23:56:00 --> Undefined index: MESA
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 23:56:26 --> Undefined index: MESA
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 23:56:42 --> Undefined index: MESA
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 23:57:50 --> Undefined index: MESA
+#0 C:\xampp\htdocs\rbduardo\app\Controllers\Cliente\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#2 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 C:\xampp\htdocs\rbduardo\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rbduardo\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

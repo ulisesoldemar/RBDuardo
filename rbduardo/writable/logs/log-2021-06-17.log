@@ -1,0 +1,68 @@
+CRITICAL - 2021-06-17 11:50:02 --> require(/opt/lampp/htdocs/rbduardo-restaurant/app/vendor/autoload.php): Failed to open stream: No such file or directory
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Server.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Server.php(7): require()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/Router/Router.php(566): include_once('...')
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute()
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(812): CodeIgniter\Router\Router->handle()
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-17 11:50:11 --> require(/opt/lampp/htdocs/rbduardo-restaurant/app/vendor/autoload.php): Failed to open stream: No such file or directory
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Server.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Server.php(7): require()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/Router/Router.php(566): include_once('...')
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute()
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(812): CodeIgniter\Router\Router->handle()
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-17 11:51:19 --> require(/opt/lampp/htdocs/rbduardo-restaurant/app/vendor/autoload.php): Failed to open stream: No such file or directory
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Server.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Server.php(7): require()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/Router/Router.php(566): include_once('...')
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute()
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(812): CodeIgniter\Router\Router->handle()
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest()
+#7 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-17 21:30:55 --> Class 'App\Models\MeseroModel' not found
+#0 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(903): App\Controllers\Mesero\Home->__construct()
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-17 22:49:08 --> Undefined index: PEDIDO
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 19, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-17 23:00:52 --> Call to undefined method App\Models\TicketModel::get_total
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(53): CodeIgniter\Model->__call('get_total', Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-17 23:04:15 --> Array to string conversion
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Models/PedidoModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 38, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(53): App\Models\PedidoModel->get_total(Array)
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-17 23:59:58 --> Decrypting: authentication failed.
+#0 /opt/lampp/htdocs/rbduardo-restaurant/system/Encryption/Handlers/OpenSSLHandler.php(104): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Carrito.php(55): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Carrito.php(117): App\Controllers\Cliente\Carrito->decode('imagen')
+#3 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(55): App\Controllers\Cliente\Carrito->add()
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}

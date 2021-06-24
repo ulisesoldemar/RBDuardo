@@ -1,0 +1,19 @@
+CRITICAL - 2021-06-16 19:46:46 --> Class 'App\Libraries\Comanda' not found
+#0 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Server->index()
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Server))
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 19:47:46 --> Class 'App\Libraries\Chat' not found
+#0 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Server->index()
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Server))
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 19:51:26 --> syntax error, unexpected '}'
+#0 /opt/lampp/htdocs/rbduardo-restaurant/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute('server')
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(812): CodeIgniter\Router\Router->handle('server')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

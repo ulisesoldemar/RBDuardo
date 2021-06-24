@@ -1,0 +1,237 @@
+ERROR - 2021-06-23 08:01:53 --> Unknown column 'home' in 'where clause'
+CRITICAL - 2021-06-23 08:01:53 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Admin/Ticket.php(64): App\Models\PedidoTicketModel->get_venta('home')
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Admin\Ticket->generarticket('home')
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ticket))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-23 09:01:20 --> Trying to get property 'ocupado' of non-object
+#0 /opt/lampp/htdocs/rbduardo/app/Models/MesasModel.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/opt/lampp/htdo...', 76, Array)
+#1 /opt/lampp/htdocs/rbduardo/app/Controllers/Cliente/Home.php(30): App\Models\MesasModel::is_occupied('18')
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Cliente\Home->setMesa('18')
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#4 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-23 11:35:14 --> Trying to get property 'ocupado' of non-object
+#0 /opt/lampp/htdocs/rbduardo/app/Models/MesasModel.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/opt/lampp/htdo...', 76, Array)
+#1 /opt/lampp/htdocs/rbduardo/app/Controllers/Cliente/Home.php(30): App\Models\MesasModel::is_occupied('18')
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Cliente\Home->setMesa('18')
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#4 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-23 12:34:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-06-23 12:34:41 --> Call to a member function getRowArray() on bool
+#0 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-23 12:35:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-06-23 12:35:45 --> Call to a member function getRowArray() on bool
+#0 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-23 12:35:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-06-23 12:35:49 --> Call to a member function getRowArray() on bool
+#0 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-23 12:36:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-06-23 12:36:01 --> Call to a member function getRowArray() on bool
+#0 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-23 12:36:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-06-23 12:36:07 --> Call to a member function getRowArray() on bool
+#0 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-23 12:36:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-06-23 12:36:20 --> Call to a member function getRowArray() on bool
+#0 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-23 12:36:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 12:37:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 12:38:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 12:39:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 12:41:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 12:42:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 12:42:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 12:50:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 12:50:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 12:50:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 12:50:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 12:53:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 12:54:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 12:57:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 12:58:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 12:58:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 12:59:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:00:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:00:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:08:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:08:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:08:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:09:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:09:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:10:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:13:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:13:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:14:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:16:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:17:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:17:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:22:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:23:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:23:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:24:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:26:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:28:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:29:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:30:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:31:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:32:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:37:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:37:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:38:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-06-23 13:38:27 --> A non-numeric value encountered
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/opt/lampp/htdo...', 76, Array)
+#1 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(89): App\Controllers\Mesero\Platillos->get_total()
+#2 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(33): App\Controllers\Mesero\Platillos->add_db()
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#4 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-06-23 13:41:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:41:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:41:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-06-23 13:42:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-06-23 13:52:55 --> Undefined variable: _SESSION
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 26, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(903): App\Controllers\Mesero\Platillos->__construct()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-23 13:54:01 --> A non-numeric value encountered
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/opt/lampp/htdo...', 67, Array)
+#1 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(84): App\Controllers\Mesero\Platillos->get_total()
+#2 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(35): App\Controllers\Mesero\Platillos->add_db()
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#4 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-06-23 15:09:31 --> Column 'total' cannot be null
+ERROR - 2021-06-23 15:11:00 --> Column 'total' cannot be null
+CRITICAL - 2021-06-23 15:35:21 --> A non-numeric value encountered
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/opt/lampp/htdo...', 67, Array)
+#1 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(84): App\Controllers\Mesero\Platillos->get_total()
+#2 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(35): App\Controllers\Mesero\Platillos->add_db()
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#4 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-23 15:37:08 --> A non-numeric value encountered
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/opt/lampp/htdo...', 67, Array)
+#1 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(84): App\Controllers\Mesero\Platillos->get_total()
+#2 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(35): App\Controllers\Mesero\Platillos->add_db()
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#4 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-23 15:41:11 --> A non-numeric value encountered
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/opt/lampp/htdo...', 67, Array)
+#1 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(84): App\Controllers\Mesero\Platillos->get_total()
+#2 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(35): App\Controllers\Mesero\Platillos->add_db()
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#4 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-23 15:42:00 --> A non-numeric value encountered
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/opt/lampp/htdo...', 67, Array)
+#1 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(84): App\Controllers\Mesero\Platillos->get_total()
+#2 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(35): App\Controllers\Mesero\Platillos->add_db()
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#4 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-23 15:42:53 --> A non-numeric value encountered
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/opt/lampp/htdo...', 68, Array)
+#1 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(85): App\Controllers\Mesero\Platillos->get_total()
+#2 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(36): App\Controllers\Mesero\Platillos->add_db()
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#4 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-23 17:18:57 --> Undefined variable: pedido
+#0 /opt/lampp/htdocs/rbduardo/app/Views/mesero/platillos.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 128, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(52): view('mesero/platillo...', Array)
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-23 18:09:04 --> Array to string conversion
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Cocina/Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 17, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Cocina\Home->save()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cocina\Home))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-23 18:10:53 --> Cannot use [] for reading
+#0 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Cocina\Home->save()
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cocina\Home))
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-23 18:13:33 --> Cannot use [] for reading
+#0 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Cocina\Home->save()
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cocina\Home))
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-23 18:14:11 --> Undefined index: body
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Cocina/Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 17, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Cocina\Home->save()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cocina\Home))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-23 18:14:36 --> Undefined index: body
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Cocina/Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 17, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Cocina\Home->save()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cocina\Home))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-23 18:18:58 --> Undefined index: body
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Cocina/Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 17, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Cocina\Home->save()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cocina\Home))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

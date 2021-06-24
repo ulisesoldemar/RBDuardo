@@ -1,0 +1,645 @@
+CRITICAL - 2021-06-15 13:53:22 --> Undefined variable: pedido
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/cuenta.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 22, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/cuenta', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(35): view('cliente/cuenta', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 14:01:18 --> Undefined variable: pedido
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/cuenta.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 22, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/cuenta', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(35): view('cliente/cuenta', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 14:11:44 --> Array to string conversion
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 31, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 14:11:58 --> Undefined variable: pedido
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/cuenta.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 22, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/cuenta', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(37): view('cliente/cuenta', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 14:12:21 --> Undefined index: idPedido
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 31, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 14:13:36 --> Trying to get property 'idPedido' of non-object
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/opt/lampp/htdo...', 30, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-15 14:19:29 --> Unknown column 'idPedido' in 'where clause'
+CRITICAL - 2021-06-15 14:19:29 --> Call to a member function getResult() on bool
+#0 /opt/lampp/htdocs/rbduardo-restaurant/system/BaseModel.php(538): CodeIgniter\Model->doFind(false, NULL)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/Model.php(174): CodeIgniter\BaseModel->find()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/BaseModel.php(571): CodeIgniter\Model->doFindColumn('nombre')
+#3 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(31): CodeIgniter\BaseModel->findColumn('nombre')
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-06-15 14:22:01 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2021-06-15 14:22:01 --> Call to a member function getResult() on bool
+#0 /opt/lampp/htdocs/rbduardo-restaurant/system/BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(31): CodeIgniter\BaseModel->findAll()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-15 14:31:35 --> Undefined index: idPlatillo
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 36, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-15 15:16:45 --> Unknown column 'cantidad' in 'field list'
+ERROR - 2021-06-15 15:16:45 --> Unknown column 'cantidad' in 'field list'
+ERROR - 2021-06-15 15:17:18 --> Unknown column 'cantidad' in 'field list'
+ERROR - 2021-06-15 15:17:18 --> Unknown column 'cantidad' in 'field list'
+ERROR - 2021-06-15 15:17:27 --> Unknown column 'cantidad' in 'field list'
+ERROR - 2021-06-15 15:17:27 --> Unknown column 'cantidad' in 'field list'
+ERROR - 2021-06-15 15:17:28 --> Unknown column 'cantidad' in 'field list'
+ERROR - 2021-06-15 15:17:28 --> Unknown column 'cantidad' in 'field list'
+ERROR - 2021-06-15 15:17:29 --> Unknown column 'cantidad' in 'field list'
+ERROR - 2021-06-15 15:17:29 --> Unknown column 'cantidad' in 'field list'
+ERROR - 2021-06-15 15:17:30 --> Unknown column 'cantidad' in 'field list'
+ERROR - 2021-06-15 15:17:30 --> Unknown column 'cantidad' in 'field list'
+ERROR - 2021-06-15 15:17:40 --> Unknown column 'cantidad' in 'field list'
+ERROR - 2021-06-15 15:17:40 --> Unknown column 'cantidad' in 'field list'
+ERROR - 2021-06-15 15:18:11 --> Unknown column 'cantidad' in 'field list'
+ERROR - 2021-06-15 15:18:11 --> Unknown column 'cantidad' in 'field list'
+CRITICAL - 2021-06-15 15:25:26 --> Undefined variable: idPedido
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 15:25:39 --> Illegal string offset 'nombre'
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/cuenta.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/opt/lampp/htdo...', 25, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/cuenta', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(43): view('cliente/cuenta', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 15:28:18 --> Undefined index: nombre
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/cuenta.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 25, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/cuenta', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(44): view('cliente/cuenta', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 15:32:16 --> array_combine(): Both parameters should have an equal number of elements
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_combine()...', '/opt/lampp/htdo...', 36, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(36): array_combine(Array, Array)
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-15 15:38:50 --> Cannot pass parameter 1 by reference
+#0 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-15 15:42:28 --> Undefined variable: index
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/cuenta.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 22, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/cuenta', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(43): view('cliente/cuenta', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 15:42:50 --> Undefined offset: 1
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/cuenta.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/opt/lampp/htdo...', 25, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/cuenta', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(43): view('cliente/cuenta', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 15:43:58 --> Array to string conversion
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/cuenta.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 25, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/cuenta', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(43): view('cliente/cuenta', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 16:40:00 --> Array to string conversion
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 43, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 16:43:19 --> Undefined index: cantPlatillos
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/cuenta.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 27, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/cuenta', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(49): view('cliente/cuenta', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 16:44:22 --> Undefined offset: 0
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/cuenta.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/opt/lampp/htdo...', 25, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/cuenta', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(49): view('cliente/cuenta', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 16:46:33 --> Undefined index: cantPlatillos
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/cuenta.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 27, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/cuenta', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(51): view('cliente/cuenta', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 16:56:53 --> Undefined property: App\Controllers\Cliente\Cuenta::$pedido
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 31, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 16:58:56 --> Undefined variable: pedido
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/cuenta.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 22, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/cuenta', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(37): view('cliente/cuenta', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 16:59:16 --> Undefined variable: pedido
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/cuenta.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 22, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/cuenta', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(37): view('cliente/cuenta', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 16:59:18 --> Undefined variable: pedido
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/cuenta.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 22, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/cuenta', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Cuenta.php(37): view('cliente/cuenta', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Cuenta->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Cuenta))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:16:48 --> Undefined index: nombre
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(65): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:17:04 --> Undefined index: imagen
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(65): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:17:06 --> Undefined index: imagen
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(65): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:17:57 --> Undefined index: nombre
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(65): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:17:58 --> Undefined index: nombre
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(65): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:19:21 --> Undefined index: nombre
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(65): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:19:26 --> Undefined index: nombre
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(65): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:20:05 --> Undefined index: nombre
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(65): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:20:08 --> Undefined index: nombre
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(65): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:22:17 --> Undefined index: nombre
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(65): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:24:20 --> Undefined index: imagen
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 53, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(65): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:24:50 --> Undefined index: nombre
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(65): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:27:55 --> Undefined index: nombre
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(65): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:29:16 --> Trying to access array offset on value of type null
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/opt/lampp/htdo...', 39, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 17:29:31 --> Illegal string offset 'nombre'
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/opt/lampp/htdo...', 50, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(65): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:36:32 --> Illegal string offset 'nombre'
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/opt/lampp/htdo...', 44, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(63): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:40:10 --> Illegal string offset 'nombre'
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/opt/lampp/htdo...', 45, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(63): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:40:58 --> Illegal string offset 'nombre'
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/opt/lampp/htdo...', 44, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(63): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:46:42 --> Illegal string offset 'nombre'
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/opt/lampp/htdo...', 44, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(64): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:48:41 --> Illegal string offset 'nombre'
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/opt/lampp/htdo...', 44, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(64): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:48:45 --> Illegal string offset 'nombre'
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/opt/lampp/htdo...', 44, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(64): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:48:55 --> Illegal string offset 'nombre'
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/opt/lampp/htdo...', 44, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(63): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:51:17 --> Call to undefined method App\Models\PlatilloModel::getRowArray
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(36): CodeIgniter\Model->__call('getRowArray', Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 17:52:01 --> Call to a member function first() on array
+#0 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-15 17:52:15 --> Illegal string offset 'nombre'
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/menu.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/opt/lampp/htdo...', 44, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/menu', Array, true)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(63): view('cliente/menu', Array)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#7 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 17:54:25 --> Undefined index: idCategoria
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 37, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 17:55:14 --> Undefined index: idCategoria
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 37, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 17:58:14 --> Undefined offset: 0
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/opt/lampp/htdo...', 37, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 17:58:29 --> Undefined index: idCategoria
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 37, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 17:58:50 --> Undefined index: idCategoria
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 37, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 17:58:59 --> Undefined index: idCategoria
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 37, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 17:59:18 --> Undefined offset: 0
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/opt/lampp/htdo...', 37, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 18:04:03 --> Undefined offset: 0
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/opt/lampp/htdo...', 37, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 18:04:29 --> Undefined offset: 0
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/opt/lampp/htdo...', 37, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 18:11:59 --> Undefined index: nombre
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 36, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 18:13:39 --> Undefined offset: 0
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/opt/lampp/htdo...', 35, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 18:25:03 --> Undefined variable: entry
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 58, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-15 18:57:10 --> Invalid file: layout/header.php
+#0 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/header.p...')
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(487): CodeIgniter\View\View->render('layout/header', NULL, true)
+#2 /opt/lampp/htdocs/rbduardo-restaurant/app/Views/cliente/layout/main.php(24): CodeIgniter\View\View->include('layout/header')
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(230): include('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /opt/lampp/htdocs/rbduardo-restaurant/system/View/View.php(246): CodeIgniter\View\View->render('cliente/layout/...', Array, true)
+#6 /opt/lampp/htdocs/rbduardo-restaurant/system/Common.php(1250): CodeIgniter\View\View->render('cliente/home', Array, true)
+#7 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Home.php(20): view('cliente/home', Array)
+#8 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#9 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#10 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-06-15 19:22:14 --> Unknown column 'css' in 'where clause'
+CRITICAL - 2021-06-15 19:22:14 --> Call to a member function getRow() on bool
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Home.php(27): App\Models\MesasModel::is_occupied('css')
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Home->setMesa('css', 'templatemo-styl...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-15 19:22:14 --> Unknown column 'img' in 'where clause'
+CRITICAL - 2021-06-15 19:22:14 --> Call to a member function getRow() on bool
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Home.php(27): App\Models\MesasModel::is_occupied('img')
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Home->setMesa('img', 'background-home...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-15 19:22:29 --> Unknown column 'css' in 'where clause'
+CRITICAL - 2021-06-15 19:22:29 --> Call to a member function getRow() on bool
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Home.php(27): App\Models\MesasModel::is_occupied('css')
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Home->setMesa('css', 'templatemo-styl...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-15 19:22:29 --> Unknown column 'img' in 'where clause'
+CRITICAL - 2021-06-15 19:22:29 --> Call to a member function getRow() on bool
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Home.php(27): App\Models\MesasModel::is_occupied('img')
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Home->setMesa('img', 'background-home...')
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

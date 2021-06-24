@@ -1,0 +1,781 @@
+CRITICAL - 2021-06-21 12:22:21 --> Undefined variable: idMesa
+#0 /opt/lampp/htdocs/rbduardo/app/Views/mesero/platillos/platillos.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 4, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(71): view('mesero/platillo...', Array)
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-21 12:22:31 --> Undefined variable: idMesa
+#0 /opt/lampp/htdocs/rbduardo/app/Views/mesero/platillos/platillos.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 4, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(72): view('mesero/platillo...', Array)
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-21 12:26:02 --> Call to a member function select() on null
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(59): App\Models\PlatilloModel->get_data()
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 12:26:35 --> Call to a member function select() on null
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(62): App\Models\PlatilloModel->get_data()
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 12:35:36 --> Undefined variable: idPlatillo
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 69, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 12:35:43 --> Undefined variable: idPlatillo
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 69, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 13:01:04 --> Invalid argument supplied for foreach()
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/opt/lampp/htdo...', 75, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 13:01:30 --> Invalid argument supplied for foreach()
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/opt/lampp/htdo...', 75, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 13:10:00 --> Undefined index: platillos
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 75, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 13:10:51 --> Undefined index: platillos
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 75, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 13:10:56 --> Undefined index: platillos
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 75, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 13:14:21 --> Undefined index: platillos
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 75, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 13:15:05 --> Undefined index: platillos
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 75, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 13:21:22 --> Undefined index: nombreCat
+#0 /opt/lampp/htdocs/rbduardo/app/Views/mesero/platillos/platillos.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 60, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(76): view('mesero/platillo...', Array)
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-21 13:21:53 --> Call to a member function select() on null
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(63): App\Models\PlatilloModel->get_data()
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 13:22:27 --> Call to a member function select() on null
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(41): App\Models\PlatilloModel->get_data()
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 13:28:00 --> Invalid file: mesero/tables.php
+#0 /opt/lampp/htdocs/rbduardo/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mesero/tables.p...')
+#1 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/tables', Array, true)
+#2 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Home.php(22): view('mesero/tables', Array)
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Home->index()
+#4 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Home))
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-06-21 13:38:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ocupado = 1' at line 1
+CRITICAL - 2021-06-21 13:38:28 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Mesas->index()
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Mesas))
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-21 13:38:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ocupado = 1' at line 1
+CRITICAL - 2021-06-21 13:38:49 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Mesas->index()
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Mesas))
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-21 13:41:02 --> Undefined index: idMesa
+#0 /opt/lampp/htdocs/rbduardo/app/Views/mesero/platillos/platillos.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 4, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(52): view('mesero/platillo...', Array)
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-21 13:43:48 --> Undefined index: ID_MESA
+#0 /opt/lampp/htdocs/rbduardo/app/Views/mesero/platillos/platillos.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 4, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(52): view('mesero/platillo...', Array)
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-21 13:52:30 --> Undefined property: App\Controllers\Mesero\Pedidos::$mesa
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Pedidos.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 27, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Pedidos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Pedidos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:07:59 --> Too few arguments to function App\Models\MesasModel::set_occupied(), 1 passed in /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Abrir.php on line 26 and exactly 2 expected
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Abrir.php(26): App\Models\MesasModel->set_occupied(true)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Abrir->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Abrir))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:12:54 --> Call to undefined function format_number()
+#0 /opt/lampp/htdocs/rbduardo/system/View/View.php(230): include()
+#1 /opt/lampp/htdocs/rbduardo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/pedidos', Array, true)
+#3 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Pedidos.php(32): view('mesero/pedidos', Array)
+#4 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Pedidos->index()
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Pedidos))
+#6 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-21 14:22:52 --> Undefined index: platillos
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:29:56 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Views/mesero/platillos/platillos.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 32, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(53): view('mesero/platillo...', Array)
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-21 14:30:28 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:30:40 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:30:54 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:30:55 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:30:56 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:30:56 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:30:56 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:30:57 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:30:57 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:30:57 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:30:57 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:30:57 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:30:57 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:30:58 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:00 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:02 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:03 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:03 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:03 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:03 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:03 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:04 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:04 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:04 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:04 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:04 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:04 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:05 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:05 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:05 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:05 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:05 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:05 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:06 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:06 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:06 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:06 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:06 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:06 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:07 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:09 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:09 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:09 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:09 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:09 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:09 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:09 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:09 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:09 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:10 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:10 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:10 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:10 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:31 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:31:33 --> Undefined index: formDoor
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:36:09 --> Undefined index: platillos
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 35, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:36:18 --> Undefined index: platillos
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 35, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:37:07 --> Undefined index: platillos
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 35, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:38:28 --> Undefined index: platillos
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 35, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 14:41:50 --> Undefined index: nombrelatillo
+#0 /opt/lampp/htdocs/rbduardo/app/Views/mesero/platillos/platillos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 26, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(56): view('mesero/platillo...', Array)
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-21 15:15:00 --> Array to string conversion
+#0 /opt/lampp/htdocs/rbduardo/app/Views/mesero/platillos/platillos.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 60, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(56): view('mesero/platillo...', Array)
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-21 15:15:24 --> Array to string conversion
+#0 /opt/lampp/htdocs/rbduardo/app/Views/mesero/platillos/platillos.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 60, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(56): view('mesero/platillo...', Array)
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-21 15:27:33 --> Undefined index: idPedido
+#0 /opt/lampp/htdocs/rbduardo/app/Views/mesero/platillos/platillos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 49, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(57): view('mesero/platillo...', Array)
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-21 15:29:12 --> Undefined index: idPedido
+#0 /opt/lampp/htdocs/rbduardo/app/Views/mesero/platillos/platillos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 49, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(57): view('mesero/platillo...', Array)
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-21 15:29:33 --> Undefined index: idPedido
+#0 /opt/lampp/htdocs/rbduardo/app/Views/mesero/platillos/platillos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 49, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(57): view('mesero/platillo...', Array)
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-21 16:52:20 --> Undefined property: App\Controllers\Mesero\Platillos::$pedido
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 94, Array)
+#1 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(49): App\Controllers\Mesero\Platillos->add_db()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#4 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-21 16:54:08 --> Trying to access array offset on value of type null
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/opt/lampp/htdo...', 111, Array)
+#1 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(43): App\Controllers\Mesero\Platillos->add_db()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#4 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-21 16:57:09 --> Trying to access array offset on value of type null
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/opt/lampp/htdo...', 111, Array)
+#1 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(43): App\Controllers\Mesero\Platillos->add_db()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#4 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-21 16:59:19 --> Trying to access array offset on value of type null
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/opt/lampp/htdo...', 112, Array)
+#1 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(43): App\Controllers\Mesero\Platillos->add_db()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#4 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-21 17:02:27 --> Trying to access array offset on value of type null
+#0 /opt/lampp/htdocs/rbduardo/app/Views/mesero/platillos/platillos.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/opt/lampp/htdo...', 91, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(62): view('mesero/platillo...', Array)
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-21 17:05:36 --> A non-numeric value encountered
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/opt/lampp/htdo...', 116, Array)
+#1 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(43): App\Controllers\Mesero\Platillos->add_db()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#4 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-21 17:11:47 --> Trying to access array offset on value of type null
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/opt/lampp/htdo...', 75, Array)
+#1 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(89): App\Controllers\Mesero\Platillos->get_total()
+#2 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(43): App\Controllers\Mesero\Platillos->add_db()
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#4 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-21 17:17:11 --> A non-numeric value encountered
+#0 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/opt/lampp/htdo...', 39, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#2 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#3 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-21 17:44:25 --> Invalid argument supplied for foreach()
+#0 /opt/lampp/htdocs/rbduardo/app/Views/mesero/platillos/platillos.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/opt/lampp/htdo...', 86, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(60): view('mesero/platillo...', Array)
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-21 17:45:20 --> Invalid argument supplied for foreach()
+#0 /opt/lampp/htdocs/rbduardo/app/Views/mesero/platillos/platillos.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/opt/lampp/htdo...', 86, Array)
+#1 /opt/lampp/htdocs/rbduardo/system/View/View.php(230): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/rbduardo/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/rbduardo/system/Common.php(1250): CodeIgniter\View\View->render('mesero/platillo...', Array, true)
+#4 /opt/lampp/htdocs/rbduardo/app/Controllers/Mesero/Platillos.php(60): view('mesero/platillo...', Array)
+#5 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(931): App\Controllers\Mesero\Platillos->index()
+#6 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesero\Platillos))
+#7 /opt/lampp/htdocs/rbduardo/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/rbduardo/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-21 23:42:14 --> Unknown column 'hora' in 'field list'
+ERROR - 2021-06-21 23:42:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '35 )' at line 1

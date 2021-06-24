@@ -1,0 +1,15 @@
+.image-platillo{
+    width: 30%;
+    height: auto;
+}
+
+.image-platillo-thumbnail{
+    max-width: 25% !important;
+    height: auto;
+}
+
+#btn-abir-mesa {
+    margin-bottom: 4px !important;
+    border-radius: 5% !important;
+    background-color: #198754 !important;
+  }

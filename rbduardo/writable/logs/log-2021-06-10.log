@@ -1,0 +1,103 @@
+CRITICAL - 2021-06-10 20:35:22 --> Undefined index: PEDIDO
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Carrito.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 39, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Carrito->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Carrito))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 20:36:03 --> Undefined index: PEDIDO
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/BaseController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 66, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(70): App\Controllers\BaseController->total_products()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-10 20:46:00 --> Undefined index: PEDIDO
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/BaseController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 66, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(70): App\Controllers\BaseController->total_products()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-10 20:49:48 --> Cannot add or update a child row: a foreign key constraint fails (`restaurante_rbduardo`.`contiene`, CONSTRAINT `idPedido` FOREIGN KEY (`idPedido`) REFERENCES `pedido` (`idPedido`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2021-06-10 20:54:02 --> Undefined index: PEDIDO
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/BaseController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 66, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Home.php(16): App\Controllers\BaseController->total_products()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-10 20:56:57 --> Undefined index: PRODUCTOS
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/BaseController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 66, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Home.php(16): App\Controllers\BaseController->total_products()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-10 21:28:37 --> Call to undefined method App\Models\PedidoModel::column
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Carrito.php(81): CodeIgniter\Model->__call('column', Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Carrito.php(32): App\Controllers\Cliente\Carrito->addDB()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Carrito->index()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Carrito))
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-10 21:42:26 --> Undefined index: PEDIDO
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/BaseController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 66, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(70): App\Controllers\BaseController->total_products()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-10 21:42:56 --> Undefined property: stdClass::$idPedido
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Carrito.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 84, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Carrito.php(32): App\Controllers\Cliente\Carrito->addDB()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Carrito->index()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Carrito))
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-10 21:44:28 --> Undefined property: stdClass::$idPedido
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Carrito.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 85, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Carrito.php(32): App\Controllers\Cliente\Carrito->addDB()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Carrito->index()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Carrito))
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-10 21:52:38 --> Undefined index: PEDIDO
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/BaseController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 66, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Menu.php(70): App\Controllers\BaseController->total_products()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Menu->index()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Menu))
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-10 21:53:17 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Carrito.php(32): App\Controllers\Cliente\Carrito->addDB()
+#1 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Carrito->index()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Carrito))
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-10 21:54:26 --> Undefined index: idPedido
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Carrito.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 86, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Carrito.php(32): App\Controllers\Cliente\Carrito->addDB()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Carrito->index()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Carrito))
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-10 22:04:32 --> Undefined index: PEDIDO
+#0 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/BaseController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 66, Array)
+#1 /opt/lampp/htdocs/rbduardo-restaurant/app/Controllers/Cliente/Home.php(16): App\Controllers\BaseController->total_products()
+#2 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(931): App\Controllers\Cliente\Home->index()
+#3 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente\Home))
+#4 /opt/lampp/htdocs/rbduardo-restaurant/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/rbduardo-restaurant/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
